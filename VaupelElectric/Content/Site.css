@@ -29,6 +29,7 @@ textarea {
 
     .navbar-inverse .navbar-nav > li > a {
         color: yellow;
+        font-weight: bolder;
     }
 
     .navbar-inverse .navbar-nav > li > a:hover {
