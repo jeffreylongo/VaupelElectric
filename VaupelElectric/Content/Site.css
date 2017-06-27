@@ -33,16 +33,33 @@ textarea {
     }
 
     .navbar-inverse .navbar-nav > li > a:hover {
-        color: blue;
+        color: white;
     }
 
 .splash {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #logoSplash {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     height: 200px;
+}
+
+.scheduleButton {
+    height: 50px;
+}
+
+.requestButton {
+    height: 50px;
+}
+
+.turnTableSplash {
+    margin-top: -100px;
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    z-index: 0;
 }
