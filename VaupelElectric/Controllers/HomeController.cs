@@ -26,5 +26,15 @@ namespace VaupelElectric.Controllers
 
             return View();
         }
+
+        public ActionResult EmailRequest()
+        {
+            return View();
+        }
+
+        public ActionResult ProcessRequest()
+        {
+            return View();
+        }
     }
 }
