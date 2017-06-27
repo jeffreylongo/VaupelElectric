@@ -1,21 +1,40 @@
-﻿@{
+﻿
+@{
     ViewBag.Title = "Contact";
 }
 
-
-
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
-
+<h2>Contact Vaupel Electric!</h2>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    <strong>Phone:</strong>
+    (941)284-7120
+    <p></p>
+    <strong>Email:</strong>   <a href="mailto:VaupelElectric@gmail.com"> Email@VaupelElectric</a><br />
 </address>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<head>
+    <title>Contact</title>
+</head>
+<body>
+    <h2>Email Us Now!</h2>
+    <form method="post" action="ProcessRequest">
+        <div>
+            Your name:
+            <input type="text" name="customerName" />
+        </div>
+
+        <div>
+            Your email address:
+            <input type="text" name="customerEmail" />
+        </div>
+
+        <div>
+            Details about your inquiry: <br />
+            <textarea name="customerRequest" cols="45" rows="4"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</body>

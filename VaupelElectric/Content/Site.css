@@ -35,3 +35,14 @@ textarea {
     .navbar-inverse .navbar-nav > li > a:hover {
         color: blue;
     }
+
+.splash {
+    display: flex;
+    justify-content: center;
+}
+
+#logoSplash {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 200px;
+}
