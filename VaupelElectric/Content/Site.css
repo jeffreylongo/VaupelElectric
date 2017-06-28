@@ -50,47 +50,51 @@ textarea {
 }
 
 .splash {
+    margin-top: 0px;
+    background-color: pink;
     z-index: 2000;
-    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-
+    justify-content: center;
 }
 
 #logoSplash {
-    position: fixed;
-    z-index: 2000;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
     height: 200px;
+
 }
 
 #logoSplash2 {
-    margin-top: 25px;
-    position: fixed;
+
+}
+
+.logoContainer {
+    margin-top: -60px;
     z-index: 2000;
-    border-bottom-right-radius: 20px;
+    background-color: black;
     border-bottom-left-radius: 20px;
-    height: 200px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+}
+
+.buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .scheduleButton {
-    margin-top: 25px;
     z-index: 0;
     height: 50px;
 }
 
-.requestButton {
-    margin-top: 25px;
+.quoteButton {
     z-index: 2001 !important;
     height: 50px;
 }
 
 .turnTableSplash {
+    position: relative;
     clear: both;
-    margin-top: 40px;
+    margin-top: 60px;
     background-color: lightgrey;
     width: 100%;
     height: 510px;
@@ -134,9 +138,20 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 
 main img {
+    margin: 5px;
+}
+
+#main2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#main2 img {
     margin: 5px;
 }
 

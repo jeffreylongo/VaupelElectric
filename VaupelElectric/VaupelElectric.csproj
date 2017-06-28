@@ -224,6 +224,7 @@
     <Content Include="Images\outdoor.jpg" />
     <Content Include="Images\sconce.jpg" />
     <Content Include="Images\VE-notag.png" />
+    <Content Include="Images\VE.gif" />
     <Content Include="Images\VE.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
