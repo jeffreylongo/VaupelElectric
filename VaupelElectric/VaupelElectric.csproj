@@ -271,6 +271,10 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <None Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\ProcessRequest.cshtml" />
+    <Content Include="Views\Home\Prices.cshtml" />
+    <Content Include="Views\Home\Team.cshtml" />
+    <Content Include="Views\Home\Testimonials.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

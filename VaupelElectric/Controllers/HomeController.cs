@@ -36,5 +36,25 @@ namespace VaupelElectric.Controllers
         {
             return View();
         }
+
+        public ActionResult Prices()
+        {
+            return View();
+        }
+
+        public ActionResult Team()
+        {
+            return View();
+        }
+
+        public ActionResult Testimonials()
+        {
+            return View();
+        }
+
+        public ActionResult Services()
+        {
+            return View();
+        }
     }
 }
