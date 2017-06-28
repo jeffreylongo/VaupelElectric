@@ -29,14 +29,13 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Our Team", "Team", "Home")</li>
                     <li>@Html.ActionLink("Services", "Services", "Home")</li>
-                    <li>@Html.ActionLink("Prices", "Prices", "Home")</li>
-                    <li>@Html.ActionLink("Testimonials", "Testimonials", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li class="prices">@Html.ActionLink("Prices", "Prices", "Home")</li>
+                    <li class="testis">@Html.ActionLink("Testimonials", "Testimonials", "Home")</li>
+                    <li class="contact">@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
-                @Html.Partial("_LoginPartial")
+                <strong class="bigNumber">(941) 284-7120</strong>
             </div>
         </div>
     </div>
