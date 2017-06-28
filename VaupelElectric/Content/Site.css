@@ -118,18 +118,31 @@ textarea {
 }
 
 .blurbWrapper {
+    position: relative;
+    z-index: 0;
     border-top: 5px solid blue;
     border-bottom: 5px solid blue;
-    background-color: yellow;
     border-radius: 10px;
 }
 
+.blurbBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    opacity: .3;
+}
+
 .blurbTitle {
+    position: relative;
+    z-index: 20;
     display: flex;
     justify-content: center;
 }
 
 .blurbText {
+
+    z-index: 20;
     display: flex;
     justify-content: center;
     padding: 10px;
