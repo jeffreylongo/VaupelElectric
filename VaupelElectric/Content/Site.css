@@ -63,3 +63,9 @@ textarea {
     height: 500px;
     z-index: 0;
 }
+
+cImage {
+    width: auto;
+    height: 225px;
+    max-height: 225px;
+}
