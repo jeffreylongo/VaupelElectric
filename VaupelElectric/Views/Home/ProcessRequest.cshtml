@@ -9,7 +9,7 @@
     </div>
 </div>
 
-<h2>ProcessRequest</h2>
+<h2>Ask an Electrician!</h2>
 
 @{
     var customerName = Request["customerName"];
@@ -43,28 +43,31 @@
 <head>
     <title>Request for Quote/Info</title>
 </head>
+
 <body>
-    <p>Thanks for requesting some info from us, <b>@customerName</b>.</p>
-    @if (errorMessage == "")
-    {
-        <p>
-            An email message has been sent to our expert electricians regarding the following inquery:
-        </p>
-        <p><b>@customerRequest</b></p>
-    }
-    else
-    {
-        <p><b>The email was <em>not</em> sent.</b></p>
-        <p>
-            Please check that the code in the ProcessRequest page has
-            correct settings for the SMTP server name, a user name,
-            a password, and a "from" address.
-        </p>
-        if (debuggingFlag)
+    <div class="request">
+        <p>Thanks for requesting some info from us, <b>@customerName</b>.</p>
+        @if (errorMessage == "")
         {
-            <p>The following error was reported:</p>
-            <p><em>@errorMessage</em></p>
+            <p>
+                An email message has been sent to our expert electricians regarding the following inquery:
+            </p>
+            <p><b>@customerRequest</b></p>
         }
-    }
+        else
+        {
+            <p><b>The email was <em>not</em> sent.</b></p>
+            <p>
+                Please check that the code in the ProcessRequest page has
+                correct settings for the SMTP server name, a user name,
+                a password, and a "from" address.
+            </p>
+            if (debuggingFlag)
+            {
+                <p>The following error was reported:</p>
+                <p><em>@errorMessage</em></p>
+            }
+        }
+    </div>
 </body>
 </html>
