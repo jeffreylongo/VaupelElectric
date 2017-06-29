@@ -228,6 +228,23 @@ main img {
     justify-content: center;
 }
 
+@media (max-width: 1024px) {
+    .testis {
+        margin-left: 0px;
+    }
+    .prices {
+        margin-left: 300px;
+    }
+    .bigNumber {
+        margin-left: 700px;
+    }
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
 @media (max-width: 768px) {
     .buttons {
         margin-top: 150px;
@@ -236,7 +253,31 @@ main img {
         flex-wrap: wrap;
     }
     .splash {
-        margin-top: 160px;
+        margin-top: 0px;
+    }
+    .bigNumber {
+        margin-left: 450px;
+    }
+    .home {
+        margin-left: 0px;
+    }
+    .team {
+        margin-left: 0px;
+    }
+    .testis {
+        margin-left: 15px;
+    }
+    .services {
+        margin-left: 350px;
+    }
+    .prices {
+        margin-left: 0px;
+    }
+    .contact {
+        margin-left: 430px;
+    }
+    .turnTableSplash {
+        margin-top: 10px;
     }
 }
 
