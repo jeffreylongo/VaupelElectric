@@ -14,6 +14,7 @@
 @{
     var customerName = Request["customerName"];
     var customerEmail = Request["customerEmail"];
+    var customerPhone = Request["customerPhone"];
     var customerRequest = Request["customerRequest"];
     var errorMessage = "";
     var debuggingFlag = false;
@@ -29,8 +30,8 @@
 
         // Send email
         WebMail.Send(to: customerEmail,
-            subject: "Help request from - " + customerName,
-            body: customerRequest
+            subject: "Quote/Info request from - " + customerName,
+            body: customerPhone + customerRequest
         );
     }
     catch (Exception ex)

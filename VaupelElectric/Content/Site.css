@@ -51,7 +51,6 @@ textarea {
 
 .splash {
     margin-top: 0px;
-    background-color: pink;
     z-index: 2000;
     display: flex;
     justify-content: center;
@@ -59,7 +58,6 @@ textarea {
 
 #logoSplash {
     height: 200px;
-
 }
 
 #logoSplash2 {
@@ -80,6 +78,7 @@ textarea {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .scheduleButton {
@@ -88,7 +87,7 @@ textarea {
 }
 
 .quoteButton {
-    z-index: 2001 !important;
+    z-index: 0;
     height: 50px;
 }
 
@@ -227,4 +226,43 @@ main img {
 .servicesScheduleButton {
     display: flex;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .buttons {
+        margin-top: 150px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .splash {
+        margin-top: 160px;
+    }
+}
+
+@media (max-width: 414px) {
+    .splash {
+        margin-top: 0px;
+    }
+    .turnTableSplash {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .buttons {
+        margin-top: 100px;
+    }
+    #logoSplash {
+        height: 150px;
+    }
+}
+
+@media (max-width: 320px) {
+    #logoSplash {
+        height: 130px;
+    }
+    .buttons {
+        margin-top: 75px;
+    }
 }
