@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using VaupelElectric.Models;
+using VaupelElectric.ViewModels;
 
 namespace VaupelElectric.Controllers
 {
@@ -57,11 +58,11 @@ namespace VaupelElectric.Controllers
 
         public ActionResult Services( )
         {
+            ServicesViewModel vm = new ServicesViewModel();
+            vm.HomeServices = db.HomeServices;
+            vm.CommercialServices = db.CommercialServices;
 
-            //var services = db;
-            //return View(services.ToList());
-            return View();
-        
+            return View(vm);
         }
     }
 }
