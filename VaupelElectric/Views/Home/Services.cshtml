@@ -1,4 +1,5 @@
-﻿
+﻿@model VaupelElectric.ViewModels.ServicesViewModel
+
 @{
     ViewBag.Title = "Services";
 }
@@ -127,4 +128,16 @@
 <div class="servicesScheduleButton">
     <a href="Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-calendar"></span> Set Appointment!</a>
 </div>
+
+<br />
+
+@foreach (var homeService in Model.HomeServices)
+{
+    <a href="Prices">
+        <div class="serviceImage">
+            <img src="@homeService.Img" height="426" width="426">
+            <h3>@homeService.Service</h3>
+        </div>
+    </a>
+}
 

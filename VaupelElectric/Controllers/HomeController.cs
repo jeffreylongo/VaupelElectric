@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using VaupelElectric.Models;
 
 namespace VaupelElectric.Controllers
 {
     public class HomeController : Controller
     {
+        private ApplicationDbContext db = new ApplicationDbContext();
+
         public ActionResult Index()
         {
             return View();
@@ -52,9 +55,13 @@ namespace VaupelElectric.Controllers
             return View();
         }
 
-        public ActionResult Services()
+        public ActionResult Services( )
         {
+
+            //var services = db;
+            //return View(services.ToList());
             return View();
+        
         }
     }
 }

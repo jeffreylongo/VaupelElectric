@@ -29,5 +29,9 @@ namespace VaupelElectric.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<ServiceCost> ServiceCosts { get; set; }
+        public DbSet<HomeService> HomeServices { get; set; }
+        public DbSet<CommercialService> CommercialServices { get; set; }
     }
 }
