@@ -215,7 +215,30 @@ main {
 .teamButtons {
     margin-top: 25px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.servicesButtons1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.servicesButtons2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .servicesScheduleButton {
@@ -315,6 +338,7 @@ main {
 @media (max-width: 414px) {
     .splash {
         margin-top: 0px;
+        margin-left: -135px;
     }
 
     #logoSplash {
@@ -349,12 +373,29 @@ main {
         margin-top: 50px;
     }
 
+    .testisHead {
+        margin-top: 50px;
+    }
+
+    .servicesHeader {
+        margin-top: 50px;
+    }
+
+    .serviceTitle {
+        margin-left: -425px;
+    }
+
     .teamPageHead {
         margin-top: 50px;
     }
 
     .teamHead {
-        width: 145px;
+        width: 250px;
+    }
+
+    .vaupelMover {
+        display: flex;
+        justify-content: center;
     }
 }
 

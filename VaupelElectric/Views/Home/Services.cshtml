@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<h2><a href="">Home Services</a></h2>
+<h2 class="servicesHeader"><a href="">Home Services</a></h2>
 <h2><a href="#separator">Commercial Services</a></h2>
 
 <div class="homeServiceContainer">
@@ -19,15 +19,21 @@
         <a href="Prices">
             <div class="serviceImage">
                 <img src="@homeService.Img" height="426" width="426">
-                <h3>@homeService.Service</h3>
+                <h3 class="serviceTitle">@homeService.Service</h3>
             </div>
         </a>
     }
 </div>
 
 <h3 id="separator"><center>And much more!</center></h3>
-<div class="servicesScheduleButton">
-    <a href="Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-calendar"></span> Set Appointment!</a>
+
+<div class="servicesButtons1">
+    <div class="scheduleButton">
+        <a href="tel:9412847120" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> Call: (941) 284-7120</a>
+    </div>
+    <div class="quoteButton">
+        <a href="Home/Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-usd"></span> Request A Quote!</a>
+    </div>
 </div>
 
 
@@ -40,15 +46,21 @@
         <a href="Prices">
             <div class="serviceImage">
                 <img src="@commercialService.Img" height="426" width="426">
-                <h3>@commercialService.Service</h3>
+                <h3 class="serviceTitle">@commercialService.Service</h3>
             </div>
         </a>
     }
 </div>
 
 <h3><center>And much more!</center></h3>
-<div class="servicesScheduleButton">
-    <a href="Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-calendar"></span> Set Appointment!</a>
+
+<div class="servicesButtons2">
+    <div class="scheduleButton">
+        <a href="tel:9412847120" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> Call: (941) 284-7120</a>
+    </div>
+    <div class="quoteButton">
+        <a href="Home/Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-usd"></span> Request A Quote!</a>
+    </div>
 </div>
 
 <br />
