@@ -300,7 +300,7 @@ main {
 
     .splash {
         margin-top: 0px;
-        margin-left: 200px;
+        margin-left: -270px;
     }
 
     .bigNumber {
@@ -333,6 +333,30 @@ main {
 
     .turnTableSplash {
         margin-top: 10px;
+    }
+
+    .serviceTitle {
+        margin-left: -430px;
+    }
+
+    .contactHead {
+        margin-top: 125px;
+    }
+
+    .pricesHead {
+        margin-top: 125px;
+    }
+
+    .testisHead {
+        margin-top: 125px;
+    }
+
+    .servicesHeader {
+        margin-top: 125px;
+    }
+
+    .teamPageHead {
+        margin-top: 125px;
     }
 }
 
@@ -371,6 +395,10 @@ main {
     }
 
     .contactHead {
+        margin-top: 50px;
+    }
+
+    .pricesHead {
         margin-top: 50px;
     }
 
