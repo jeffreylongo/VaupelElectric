@@ -7,13 +7,13 @@ namespace VaupelElectric.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class onceAgain : IMigrationMetadata
+    public sealed partial class NewDb : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(onceAgain));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(NewDb));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706292106577_onceAgain"; }
+            get { return "201706301345411_NewDb"; }
         }
         
         string IMigrationMetadata.Source

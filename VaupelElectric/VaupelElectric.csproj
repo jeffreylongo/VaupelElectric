@@ -204,9 +204,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706292106577_onceAgain.cs" />
-    <Compile Include="Migrations\201706292106577_onceAgain.Designer.cs">
-      <DependentUpon>201706292106577_onceAgain.cs</DependentUpon>
+    <Compile Include="Migrations\201706301345411_NewDb.cs" />
+    <Compile Include="Migrations\201706301345411_NewDb.Designer.cs">
+      <DependentUpon>201706301345411_NewDb.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -287,7 +287,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <None Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\ProcessRequest.cshtml" />
     <Content Include="Views\Home\Prices.cshtml" />
     <Content Include="Views\Home\Team.cshtml" />
@@ -314,8 +314,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706292106577_onceAgain.resx">
-      <DependentUpon>201706292106577_onceAgain.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706301345411_NewDb.resx">
+      <DependentUpon>201706301345411_NewDb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

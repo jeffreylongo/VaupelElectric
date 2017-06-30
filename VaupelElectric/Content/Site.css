@@ -321,6 +321,10 @@ main img {
     #logoSplash {
         height: 150px;
     }
+    .splash {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 320px) {

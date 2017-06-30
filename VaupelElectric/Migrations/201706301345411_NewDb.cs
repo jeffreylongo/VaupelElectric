@@ -3,7 +3,7 @@ namespace VaupelElectric.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class onceAgain : DbMigration
+    public partial class NewDb : DbMigration
     {
         public override void Up()
         {
