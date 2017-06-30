@@ -32,9 +32,9 @@ textarea {
         font-weight: bolder;
     }
 
-    .navbar-inverse .navbar-nav > li > a:hover {
-        color: white;
-    }
+        .navbar-inverse .navbar-nav > li > a:hover {
+            color: white;
+        }
 
 .testis {
     margin-left: 320px;
@@ -46,7 +46,6 @@ textarea {
     margin-top: 500px;
     margin-left: 5px;
     font-size: 25px;
-
 }
 
 .splash {
@@ -61,7 +60,6 @@ textarea {
 }
 
 #logoSplash2 {
-
 }
 
 .logoContainer {
@@ -140,7 +138,6 @@ textarea {
 }
 
 .blurbText {
-
     z-index: 20;
     display: flex;
     justify-content: center;
@@ -154,9 +151,9 @@ main {
     margin-top: 50px;
 }
 
-main img {
-    margin: 5px;
-}
+    main img {
+        margin: 5px;
+    }
 
 #main2 {
     display: flex;
@@ -164,23 +161,23 @@ main img {
     flex-wrap: wrap;
 }
 
-#main2 img {
-    margin: 5px;
-}
+    #main2 img {
+        margin: 5px;
+    }
 
 .serviceImage {
     position: relative;
 }
 
-.serviceImage h3 {
-    background-color: darkblue;
-    position:absolute;
-    top: 350px;
-    width: 100%;
-    color: yellow;
-    text-align: center;
-    border-radius: 5px;
-}
+    .serviceImage h3 {
+        background-color: darkblue;
+        position: absolute;
+        top: 350px;
+        width: 100%;
+        color: yellow;
+        text-align: center;
+        border-radius: 5px;
+    }
 
 .request {
     margin-top: 100px;
@@ -193,17 +190,15 @@ main img {
     width: 525px;
     background-color: darkblue;
     border-radius: 5px;
-
 }
 
-.teamHead h3 {
-    color: yellow;
-    padding: 10px;
-    font-weight: bold;
-}
+    .teamHead h3 {
+        color: yellow;
+        padding: 10px;
+        font-weight: bold;
+    }
 
 .teamText {
-
     z-index: 1;
     margin-top: -20px;
     border-radius: 10px;
@@ -211,11 +206,11 @@ main img {
     border-bottom: 1px solid yellow;
 }
 
-.teamText h4 {
-    font-weight: bold;
-    padding: 20px;
-    color: white;
-}
+    .teamText h4 {
+        font-weight: bold;
+        padding: 20px;
+        color: white;
+    }
 
 .teamButtons {
     margin-top: 25px;
@@ -234,11 +229,11 @@ main img {
     flex-wrap: wrap;
 }
 
-.homeServiceContainer .serviceImage {
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-}
+    .homeServiceContainer .serviceImage {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
 
 .commercialServiceContainer {
     display: flex;
@@ -246,22 +241,25 @@ main img {
     flex-wrap: wrap;
 }
 
-.commercialServiceContainer .serviceImage {
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-}
+    .commercialServiceContainer .serviceImage {
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
 
 @media (max-width: 1024px) {
     .testis {
         margin-left: 0px;
     }
+
     .prices {
         margin-left: 300px;
     }
+
     .bigNumber {
         margin-left: 700px;
     }
+
     .buttons {
         display: flex;
         justify-content: space-between;
@@ -276,30 +274,39 @@ main img {
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .splash {
         margin-top: 0px;
     }
+
     .bigNumber {
         margin-left: 450px;
     }
+
     .home {
         margin-left: 0px;
     }
+
     .team {
         margin-left: 0px;
     }
+
     .testis {
         margin-left: 15px;
     }
+
     .services {
         margin-left: 350px;
     }
+
     .prices {
         margin-left: 0px;
     }
+
     .contact {
         margin-left: 430px;
     }
+
     .turnTableSplash {
         margin-top: 10px;
     }
@@ -309,29 +316,45 @@ main img {
     .splash {
         margin-top: 0px;
     }
+
+    #logoSplash {
+        height: 100px;
+    }
+
     .turnTableSplash {
         margin-top: 10px;
     }
+
+    .services {
+        margin-left: -0px;
+    }
+
+    .testis {
+        margin-left: -0px;
+    }
+
+    .contact {
+        margin-left: 0px;
+    }
+
+    .bigNumber {
+        margin-left: -0px;
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+
+    .contactHead {
+        margin-top: 50px;
+    }
+
+    .teamPageHead {
+        margin-top: 50px;
+    }
+
+    .teamHead {
+        width: 145px;
+    }
 }
 
-@media (max-width: 375px) {
-    .buttons {
-        margin-top: 100px;
-    }
-    #logoSplash {
-        height: 150px;
-    }
-    .splash {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 320px) {
-    #logoSplash {
-        height: 130px;
-    }
-    .buttons {
-        margin-top: 75px;
-    }
-}
