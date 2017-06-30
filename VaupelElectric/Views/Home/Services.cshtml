@@ -13,56 +13,17 @@
 <h2><a href="">Home Services</a></h2>
 <h2><a href="#separator">Commercial Services</a></h2>
 
-<main>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="/images/fan.jpg" height="426" width="426">
-            <h3>Ceiling Fan Installation</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://excelelectricsouthflorida.com/wp-content/uploads/2015/06/bigstock-Luxury-house-at-night-in-Vanco-45913105.jpg" height="426" width="426">
-            <h3>Lighting Upgrades</h3>
-        </div>
-    </a>   
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="https://previews.123rf.com/images/radiantskies/radiantskies1301/radiantskies130101183/17319663-Abstract-word-cloud-for-Energy-audit-with-related-tags-and-terms-Stock-Photo.jpg" height="426" width="426">
-            <h3>Energy Audits</h3>
-        </div>
-    </a> 
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://randyselectric.com/learningcenter/wp-content/uploads/2014/09/bigstock-Series-Of-Dimmer-Switches-3382281.jpg" height="426" width="426">
-            <h3>Switch/Dimmer Installation</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://homebuilding.thefuntimesguide.com/files/whole-house-surge-protector.jpg" height="426" width="426">
-            <h3>Whole House Surge Protection</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://il5.picdn.net/shutterstock/videos/267241/thumb/1.jpg" height="426" width="426">
-            <h3>Remodels</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://media.safebee.com/assets/images/2015/3/electrical%20wires.jpg" height="426" width="426">
-            <h3>Electrical Troubleshooting</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://canaantechmechanical.com/img/main-service-panel-upgrades.jpg" height="426" width="426">
-            <h3>Service Change/Upgrade</h3>
-        </div>
-    </a>
-</main>
+<div class="homeServiceContainer">
+    @foreach (var homeService in Model.HomeServices)
+    {
+        <a href="Prices">
+            <div class="serviceImage">
+                <img src="@homeService.Img" height="426" width="426">
+                <h3>@homeService.Service</h3>
+            </div>
+        </a>
+    }
+</div>
 
 <h3 id="separator"><center>And much more!</center></h3>
 <div class="servicesScheduleButton">
@@ -73,56 +34,17 @@
 <br />
 <h2 id="commercial">Commercial Services</h2>
 
-<main2 id="main2">
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://www.poweredperfect.com/images/content/commercial-electrician-commercial-electrical-build-out-md.jpg" height="426" width="426">
-            <h3>Buildouts</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://cdn6.bigcommerce.com/s-r5p98g29/product_images/uploaded_images/bigstock-lightning-communications-4244853.png?t=1433857016" height="426" width="426">
-            <h3>Surge Suppression</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://vineelectric.com/files/bigstock/2016/12/blue-industrial-Interior-Wareh-7746073.jpg" height="426" width="426">
-            <h3>Lighting Retrofits/Repairs</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://www.homedepot.com/catalog/productImages/1000/4c/4c28cba1-b510-4d12-b949-6db05e39679a_1000.jpg" height="426" width="426">
-            <h3>Emergency Lighting Installation and Repair</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://3.bp.blogspot.com/-_RKd8JIlNpY/Ub8_6mElZnI/AAAAAAAABUM/JiWtq9HoJNM/s1600/tangled_in_wire.png" height="426" width="426">
-            <h3>Troubleshooting</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="http://new.rcostaelectric.com/new/wp-content/uploads/2015/11/smshutterstock_56236771.jpg" height="426" width="426">
-            <h3>Lighting Control System Upgrades</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="https://njbmagazine.com/wp-content/uploads/2016/01/MAG-Energy.jpg" height="426" width="426">
-            <h3>Commercial Energy Audits</h3>
-        </div>
-    </a>
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="https://i1.wp.com/rudisenterprises.com/wp-content/uploads/2016/12/CommercialRemodelingPic-gold-1.jpg?w=1200" height="426" width="426">
-            <h3>Remodels</h3>
-        </div>
-    </a>
-</main2>
+<div class="commercialServiceContainer">
+    @foreach (var commercialService in Model.CommercialServices)
+    {
+        <a href="Prices">
+            <div class="serviceImage">
+                <img src="@commercialService.Img" height="426" width="426">
+                <h3>@commercialService.Service</h3>
+            </div>
+        </a>
+    }
+</div>
 
 <h3><center>And much more!</center></h3>
 <div class="servicesScheduleButton">
@@ -131,13 +53,4 @@
 
 <br />
 
-@foreach (var homeService in Model.HomeServices)
-{
-    <a href="Prices">
-        <div class="serviceImage">
-            <img src="@homeService.Img" height="426" width="426">
-            <h3>@homeService.Service</h3>
-        </div>
-    </a>
-}
 

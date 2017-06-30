@@ -228,6 +228,30 @@ main img {
     justify-content: center;
 }
 
+.homeServiceContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.homeServiceContainer .serviceImage {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.commercialServiceContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.commercialServiceContainer .serviceImage {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 1024px) {
     .testis {
         margin-left: 0px;
