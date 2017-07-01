@@ -25,6 +25,7 @@ textarea {
 
 .navbar-inverse {
     border-color: yellow;
+    background-color: darkblue;
 }
 
     .navbar-inverse .navbar-nav > li > a {
@@ -65,7 +66,7 @@ textarea {
 .logoContainer {
     margin-top: -60px;
     z-index: 2000;
-    background-color: black;
+    background-color: darkblue;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom: 1px solid yellow;
