@@ -4,7 +4,7 @@
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -252,7 +252,7 @@ main {
 
 .teamHead {
     position: relative;
-    z-index: 2000;
+    z-index: 20;
     margin-left: 15px;
     width: 525px;
     background-color: darkblue;
@@ -428,6 +428,10 @@ main {
 }
 
 @media (max-width: 414px) {
+    footer {
+        margin-top: 700px;
+    }
+
     .splash {
         margin-top: 0px;
         margin-left: -135px;
