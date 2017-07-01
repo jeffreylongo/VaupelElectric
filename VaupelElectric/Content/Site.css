@@ -3,6 +3,11 @@
     padding-bottom: 20px;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -115,7 +120,14 @@ textarea {
     max-height: 500px;
 }
 
+.col-md-3 {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .blurbWrapper {
+    padding-top: 20px;
     position: relative;
     display: flex;
     justify-content:space-between;
@@ -127,38 +139,38 @@ textarea {
     margin-left: 0px;
 }
 
-.col-md-3 {
-    margin: 5px;
-}
 
 .blurbBg {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     background-color: blue;
     opacity: .3;
     border-radius: 5px;
     z-index: -1;
+    border-bottom: 5px solid yellow;
 }
 
 .blurbBg2 {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: blue; 
+    width: 95%;
+    height: 95%;
+    background-color: blue;
     border-radius: 5px;
     opacity: .3;
     z-index: -1;
+    border-bottom: 5px solid yellow;
 }
 
 .blurbBg3 {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    height: 95%;
     background-color: blue;
     opacity: .3;
     border-radius: 5px;
     z-index: -1;
+    border-bottom: 5px solid yellow;
 }
 
 .blurbTitle {
@@ -184,6 +196,14 @@ textarea {
 .readMoreTestisButton {
     display: flex;
     justify-content: center;
+}
+
+.separator {
+    position: center;
+}
+
+.separator2 {
+    position: center;
 }
 
 .testisText h5 {
