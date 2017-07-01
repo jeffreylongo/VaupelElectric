@@ -134,7 +134,7 @@ textarea {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: blue;
     opacity: .3;
     border-radius: 5px;
     z-index: -1;
@@ -144,7 +144,7 @@ textarea {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: blue;
+    background-color: blue; 
     border-radius: 5px;
     opacity: .3;
     z-index: -1;
@@ -154,7 +154,7 @@ textarea {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: blue;
     opacity: .3;
     border-radius: 5px;
     z-index: -1;
