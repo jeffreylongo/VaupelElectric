@@ -117,10 +117,17 @@ textarea {
 
 .blurbWrapper {
     position: relative;
+    display: flex;
+    justify-content:space-between;
     z-index: 0;
-    border-top: 5px solid blue;
-    border-bottom: 5px solid blue;
-    border-radius: 10px;
+    border-radius: 0px;
+    height: 375px;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.col-md-4 {
+    margin: 10px;
 }
 
 .blurbBg {
@@ -129,6 +136,28 @@ textarea {
     height: 100%;
     background-color: yellow;
     opacity: .3;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.blurbBg2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 5px;
+    opacity: .3;
+    z-index: -1;
+}
+
+.blurbBg3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    opacity: .3;
+    border-radius: 5px;
+    z-index: -1;
 }
 
 .blurbTitle {
@@ -143,6 +172,21 @@ textarea {
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+
+.readMoreServicesButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.readMoreTestisButton {
+    display: flex;
+    justify-content: center;
+}
+
+.testisText h4 {
+    font-style: italic;
 }
 
 main {
