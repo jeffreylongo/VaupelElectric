@@ -199,11 +199,11 @@ textarea {
 }
 
 .separator {
-    position: center;
+    text-align: center;
 }
 
 .separator2 {
-    position: center;
+    text-align: center;
 }
 
 .testisText h5 {
@@ -255,7 +255,6 @@ main {
     z-index: 20;
     margin-left: 15px;
     width: 525px;
-    background-color: darkblue;
     border-radius: 5px;
 }
 
@@ -265,11 +264,32 @@ main {
         font-weight: bold;
     }
 
+.teamHeadbg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    opacity: .3;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.teamTextBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+    opacity: .3;
+    border-radius: 10px;
+    z-index: -1;
+}
+
 .teamText {
+    position: relative;
     z-index: 1;
     margin-top: -20px;
     border-radius: 10px;
-    background-color: black;
+    background-color: darkblue;
     border-bottom: 1px solid yellow;
 }
 
@@ -425,11 +445,15 @@ main {
     .teamPageHead {
         margin-top: 125px;
     }
+
+    footer {
+        margin-top: 500px;
+    }
 }
 
 @media (max-width: 414px) {
     footer {
-        margin-top: 700px;
+        margin-top: 500px;
     }
 
     .splash {
