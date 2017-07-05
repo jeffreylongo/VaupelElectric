@@ -385,6 +385,7 @@ main {
         flex-wrap: wrap;
     }
 
+    /*This problem*/
     .splash {
         margin-top: 0px;
         margin-left: -270px;
