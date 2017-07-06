@@ -69,6 +69,7 @@ textarea {
 }
 
 .logoContainer {
+
     margin-top: -60px;
     z-index: 2000;
     background-color: darkblue;
@@ -232,26 +233,6 @@ main {
         margin: 5px;
     }
 
-.serviceText {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-}
-
-.serviceImage {
-    position: relative;
-}
-
-    .serviceImage h3 {
-        background-color: darkblue;
-        position: absolute;
-        top: 350px;
-        width: 100%;
-        color: yellow;
-        text-align: center;
-        border-radius: 5px;
-    }
-
 .request {
     margin-top: 100px;
 }
@@ -345,11 +326,28 @@ main {
     flex-wrap: wrap;
 }
 
-    .homeServiceContainer .serviceImage {
-        padding: 5px;
-        display: flex;
-        justify-content: center;
-    }
+
+.serviceImage {
+    position: relative;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.serviceText {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: darkblue;
+}
+
+.serviceTitle {
+    color: yellow;
+    padding: 5px;
+}
 
 .commercialServiceContainer {
     display: flex;
@@ -358,9 +356,9 @@ main {
 }
 
     .commercialServiceContainer .serviceImage {
-        padding: 5px;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
 
 @media (max-width: 1024px) {
