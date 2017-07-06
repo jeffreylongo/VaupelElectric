@@ -232,6 +232,12 @@ main {
         margin: 5px;
     }
 
+.serviceText {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
 .serviceImage {
     position: relative;
 }
@@ -388,7 +394,7 @@ main {
     /*This problem*/
     .splash {
         margin-top: 0px;
-        margin-left: -270px;
+        /*margin-left: -270px;*/
     }
 
     .bigNumber {
@@ -424,7 +430,7 @@ main {
     }
 
     .serviceTitle {
-        margin-left: -430px;
+        /*margin-left: -430px;*/
     }
 
     .contactHead {
@@ -459,7 +465,7 @@ main {
 
     .splash {
         margin-top: 0px;
-        margin-left: -135px;
+        /*margin-left: -135px;*/
     }
 
     #logoSplash {
@@ -472,6 +478,11 @@ main {
 
     .services {
         margin-left: -0px;
+    }
+
+    .serviceText {
+        display: flex;
+        justify-content: center;
     }
 
     .testis {
@@ -507,7 +518,7 @@ main {
     }
 
     .serviceTitle {
-        margin-left: -425px;
+        /*margin-left: -425px;*/
     }
 
     .teamPageHead {
