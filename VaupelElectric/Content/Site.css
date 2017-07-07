@@ -8,7 +8,7 @@ footer {
     bottom: 0;
 }
 
-/* Set padding to keep content from hitting the edges */
+/* Set padding to keep content from hitting the edges, ...delete this>?*/
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
