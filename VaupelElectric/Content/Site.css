@@ -73,6 +73,13 @@ textarea {
 
 }
 
+.scheduleButtonT {
+    position: absolute;
+    z-index: 2000;
+    margin-top: 51px;
+}
+
+
 .bigNumber {
     color: yellow;
     padding-top: 500px;
