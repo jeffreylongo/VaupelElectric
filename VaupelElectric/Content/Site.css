@@ -506,10 +506,14 @@ main {
 }
 
 @media (max-width: 414px) {
+
     footer {
         margin-top: 100px;
     }
 
+    .middle {
+        height: 975px !important;
+    }
 
     .scheduleButtonL {
         margin-top: 10px;
