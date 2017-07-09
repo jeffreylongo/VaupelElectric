@@ -10,7 +10,7 @@ html, body {
 
 footer {
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -74,7 +74,7 @@ textarea {
 }
 
 .scheduleButtonT {
-    position: absolute;
+    position: fixed;
     z-index: 2000;
     margin-top: 51px;
 }
@@ -125,6 +125,7 @@ textarea {
     position: relative;
     z-index: 100;
 }
+
 
 /*.splash {
     margin-top: 0px;
@@ -200,23 +201,38 @@ textarea {
 }
 
 .blurbWrapper {
+    clear: both;
     padding-top: 20px;
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content:space-between;
+    align-content: center;
     flex-wrap: wrap;
     z-index: 0;
     border-radius: 0px;
     height: 375px;
-    margin: 0px;
+    margin-top: 710px;
     margin-left: 0px;
+    padding: 10px;
+}
+
+.blurb1 {
+    width: 30%;
+}
+
+.blurb2 {
+    width: 30%;
+}
+
+.blurb3 {
+    width: 30%;
 }
 
 
 .blurbBg {
     position: absolute;
-    width: 95%;
-    height: 95%;
+    width: 30%;
+    height: 100%;
     background-color: blue;
     opacity: .3;
     border-radius: 5px;
@@ -226,8 +242,8 @@ textarea {
 
 .blurbBg2 {
     position: absolute;
-    width: 95%;
-    height: 95%;
+    width: 30%;
+    height: 100%;
     background-color: blue;
     border-radius: 5px;
     opacity: .3;
@@ -237,8 +253,8 @@ textarea {
 
 .blurbBg3 {
     position: absolute;
-    width: 95%;
-    height: 95%;
+    width: 30%;
+    height: 100%;
     background-color: blue;
     opacity: .3;
     border-radius: 5px;
