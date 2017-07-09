@@ -229,6 +229,9 @@
     <Content Include="Images\dock.jpg" />
     <Content Include="Images\fan.jpg" />
     <Content Include="Images\indoor.jpg" />
+    <Content Include="Images\lightning1.jpg" />
+    <Content Include="Images\lightning2.jpg" />
+    <Content Include="Images\lightning3.jpg" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\outdoor.jpg" />
     <Content Include="Images\sconce.jpg" />
