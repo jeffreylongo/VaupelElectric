@@ -129,7 +129,7 @@ textarea {
 .middle {
     margin-top: 700px;
     position: absolute;
-    z-index: 2000;
+    z-index: 10;
     height: 350px;
     width: 100%;
     border-bottom: 50px solid darkblue;
