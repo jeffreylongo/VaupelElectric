@@ -194,13 +194,8 @@ textarea {
     max-height: 500px;
 }
 
-.col-md-3 {
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .blurbWrapper {
+    width: 100%;
     clear: both;
     padding-top: 20px;
     position: absolute;
@@ -217,21 +212,21 @@ textarea {
 }
 
 .blurb1 {
-    width: 30%;
+    width: 100px;
 }
 
 .blurb2 {
-    width: 30%;
+    width: 100px;
 }
 
 .blurb3 {
-    width: 30%;
+    width: 100px;
 }
 
 
 .blurbBg {
     position: absolute;
-    width: 30%;
+    width: 100%;
     height: 100%;
     background-color: blue;
     opacity: .3;
@@ -242,7 +237,7 @@ textarea {
 
 .blurbBg2 {
     position: absolute;
-    width: 30%;
+    width: 100%;
     height: 100%;
     background-color: blue;
     border-radius: 5px;
@@ -253,7 +248,7 @@ textarea {
 
 .blurbBg3 {
     position: absolute;
-    width: 30%;
+    width: 100%;
     height: 100%;
     background-color: blue;
     opacity: .3;
