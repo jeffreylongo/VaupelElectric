@@ -8,6 +8,16 @@ footer {
     bottom: 0;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    position: relative;
+    z-index: 2000;
+}
+
+.navbar-collapse in {
+    position: relative;
+    z-index: 2000;
+}
+
 /* Set padding to keep content from hitting the edges, ...delete this>?*/
 .body-content {
     margin: 0;
@@ -94,10 +104,10 @@ textarea {
     margin: 0;
 }
 
-.veLogo {
+#veLogo {
     height: 400px;
     position: relative;
-    z-index: 2000;
+    z-index: 100;
 }
 
 /*.splash {
@@ -413,11 +423,11 @@ main {
     }
 
     .prices {
-        margin-left: 300px;
+        margin-left: 0px;
     }
 
     .bigNumber {
-        margin-left: 700px;
+        margin-left: 0px;
     }
 
     .buttons {
@@ -442,7 +452,7 @@ main {
     }
 
     .bigNumber {
-        margin-left: 450px;
+        margin-left: 0px;
     }
 
     .home {
@@ -454,11 +464,11 @@ main {
     }
 
     .testis {
-        margin-left: 15px;
+        margin-left: 0px;
     }
 
     .services {
-        margin-left: 350px;
+        margin-left: 0px;
     }
 
     .prices {
@@ -466,7 +476,7 @@ main {
     }
 
     .contact {
-        margin-left: 430px;
+        margin-left: 0px;
     }
 
     .turnTableSplash {
@@ -504,7 +514,13 @@ main {
 
 @media (max-width: 414px) {
     footer {
-        margin-top: 500px;
+        margin-top: 0px;
+    }
+
+
+    .scheduleButtonL {
+        margin-top: 10px;
+        margin-left: 0px;
     }
 
     /*.splash {
@@ -515,7 +531,6 @@ main {
     #logoSplash {
         height: 100px;
     }*/
-
     .turnTableSplash {
         margin-top: 10px;
     }
