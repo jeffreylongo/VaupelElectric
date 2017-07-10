@@ -248,6 +248,7 @@ textarea {
     justify-content: center;
 }
 
+
 .separator {
     position: relative;
     margin-top: 50px;
@@ -430,6 +431,10 @@ main {
 
     .commercialServiceContainer .serviceImage {
     }
+
+.contactHead {
+    margin-top: 70px;
+}
 
 @media (min-width: 1200px) {
     .container {
