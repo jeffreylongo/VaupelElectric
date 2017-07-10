@@ -5,10 +5,10 @@
 }
 
 @*<div class="splash">
-    <div class="logoContainer">
-        <img class="img-responsive" id="logoSplash" src="/Images/VE.gif" alt="Vaupel Electric" />
-    </div>
-</div>*@
+        <div class="logoContainer">
+            <img class="img-responsive" id="logoSplash" src="/Images/VE.gif" alt="Vaupel Electric" />
+        </div>
+    </div>*@
 
 <h2 class="servicesHeader"><a href="">Home Services</a></h2>
 <h2><a href="#separator">Commercial Services</a></h2>
@@ -28,47 +28,62 @@
 </div>
 
 <div class="separator">
-    <div class="separatorBg"></div>
-    <h3 id="separator">And much more!</h3>
+        <div class="separatorBg"></div>
+        <div class="scheduleButton1">
+            <a href="tel:9412847120" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> Call: (941) 284-7120</a>
+        </div>
+        <h3 id="separator">And much more!</h3>
+        <div class="quoteButton1">
+            <a href="Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-usd"></span> Request A Quote!</a>
+        </div>
 </div>
 
 @*<div class="servicesButtons1">
-    <div class="scheduleButton">
-        <a href="tel:9412847120" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> Call: (941) 284-7120</a>
-    </div>
-    <div class="quoteButton">
-        <a href="Home/Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-usd"></span> Request A Quote!</a>
-    </div>
-</div>*@
+        <div class="scheduleButton">
+            <a href="tel:9412847120" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> Call: (941) 284-7120</a>
+        </div>
+        <div class="quoteButton">
+            <a href="Home/Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-usd"></span> Request A Quote!</a>
+        </div>
+    </div>*@
 
 
 <br />
 <h2 id="commercial">Commercial Services</h2>
 
-@*<div class="commercialServiceContainer">
-    @foreach (var commercialService in Model.CommercialServices)
-    {
-        <a href="Prices">
-            <div class="serviceImage">
-                <img src="@commercialService.Img" height="426" width="426">
-                <div class="serviceText">
-                    <h3 class="serviceTitle">@commercialService.Service</h3>
+<div class="commercialServiceContainer">
+        @foreach (var commercialService in Model.CommercialServices)
+        {
+            <a href="Prices">
+                <div class="serviceImage">
+                    <img src="@commercialService.Img" height="426" width="426">
+                    <div class="serviceText">
+                        <h3 class="serviceTitle">@commercialService.Service</h3>
+                    </div>
                 </div>
-            </div>
-        </a>
-    }
-</div>*@
+            </a>
+        }
+    </div>
 
-<h3 id="separator2">And much more!</h3>
-
-@*<div class="servicesButtons2">
-    <div class="scheduleButton">
+<div class="separator2">
+    <div class="separatorBg"></div>
+    <div class="scheduleButton2">
         <a href="tel:9412847120" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> Call: (941) 284-7120</a>
     </div>
-    <div class="quoteButton">
+    <h3 id="separator2">And much more!</h3>
+    <div class="quoteButton2">
         <a href="Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-usd"></span> Request A Quote!</a>
     </div>
-</div>*@
+</div>
+
+@*<div class="servicesButtons2">
+        <div class="scheduleButton">
+            <a href="tel:9412847120" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-phone-alt"></span> Call: (941) 284-7120</a>
+        </div>
+        <div class="quoteButton">
+            <a href="Contact" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-usd"></span> Request A Quote!</a>
+        </div>
+    </div>*@
 
 <br />
 
