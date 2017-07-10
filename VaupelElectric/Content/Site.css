@@ -9,7 +9,6 @@ html, body {
 }
 
 footer {
-
     position: fixed;
     bottom: 0;
 }
@@ -65,13 +64,11 @@ textarea {
         }
 
 .testis {
-
 }
 
 .scheduleButtonL {
     margin-top: 10px;
     margin-left: 1000px;
-
 }
 
 .scheduleButtonT {
@@ -249,7 +246,6 @@ textarea {
 .readMoreTestisButton {
     display: flex;
     justify-content: center;
-
 }
 
 .separator {
@@ -261,7 +257,6 @@ textarea {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .separatorBg {
@@ -289,11 +284,9 @@ textarea {
 }
 
 #separator {
-
 }
 
 #separator2 {
-
 }
 
 .testisText h5 {
@@ -392,11 +385,9 @@ main {
 
 
 .servicesButtons1 {
-
 }
 
 .servicesButtons2 {
-
 }
 
 .homeServiceContainer {
@@ -406,14 +397,12 @@ main {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-
 }
 
 
 .serviceImage {
     padding: 15px;
     padding-top: 50px;
-
 }
 
 .serviceText {
@@ -440,14 +429,13 @@ main {
 }
 
     .commercialServiceContainer .serviceImage {
-
     }
 
 @media (min-width: 1200px) {
     .container {
         max-width: none;
     }
-
+}
 
 @media (max-width: 1024px) {
     .testis {
@@ -546,16 +534,12 @@ main {
 
 @media (max-width: 414px) {
 
-    .separator {
-        margin-top: 3550px;
+    .middle {
+        height: 1000px !important;
     }
 
     footer {
         margin-top: 100px;
-    }
-
-    .middle {
-        height: 975px !important;
     }
 
     .scheduleButtonL {
@@ -633,4 +617,3 @@ main {
         justify-content: center;
     }
 }
-
