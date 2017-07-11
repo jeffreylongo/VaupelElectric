@@ -590,19 +590,19 @@ main {
     }
 
     .contactHead {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .pricesHead {
-        margin-top: 50px;
+        margin-top: 100px !important;
     }
 
     .testisHead {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .servicesHeader {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .serviceTitle {
@@ -610,7 +610,7 @@ main {
     }
 
     .teamPageHead {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .teamHead {
