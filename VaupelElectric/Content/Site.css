@@ -104,7 +104,7 @@ textarea {
     padding-left: 0;
     margin-right: 0;
     height: 700px;
-    opacity: .5;
+    opacity: .7;
     position: absolute;
 }
 
@@ -320,6 +320,17 @@ main {
     margin-top: 100px;
 }
 
+.teamPageHead {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.vaupelMover {
+    display: flex;
+    justify-content: center;
+}
+
 .teamHead {
     position: relative;
     z-index: 20;
@@ -373,14 +384,20 @@ main {
     margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center;
+}
+
+.servicesHeaders {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .servicesHeader {
-    margin-top: 75px;
+
 }
 
 
@@ -420,6 +437,10 @@ main {
     margin-top: 10px;
 }
 
+#commercial {
+    text-align: center;
+}
+
 .commercialServiceContainer {
     margin-right: 0px;
     padding-right: 0px;
@@ -433,7 +454,22 @@ main {
     }
 
 .contactHead {
-    margin-top: 70px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricesHead {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricesButtons {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 1200px) {
