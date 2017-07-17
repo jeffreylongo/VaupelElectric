@@ -9,8 +9,7 @@ html, body {
 }
 
 footer {
-
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
@@ -33,6 +32,7 @@ footer {
 .container {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -64,17 +64,15 @@ textarea {
         }
 
 .testis {
-
 }
 
 .scheduleButtonL {
     margin-top: 10px;
     margin-left: 1000px;
-
 }
 
 .scheduleButtonT {
-    position: absolute;
+    position: fixed;
     z-index: 2000;
     margin-top: 51px;
 }
@@ -106,7 +104,7 @@ textarea {
     padding-left: 0;
     margin-right: 0;
     height: 700px;
-    opacity: .5;
+    opacity: .7;
     position: absolute;
 }
 
@@ -125,6 +123,25 @@ textarea {
     position: relative;
     z-index: 100;
 }
+
+.middle {
+    margin-top: 700px;
+    position: absolute;
+    z-index: 10;
+    height: 350px;
+    width: 100%;
+    border-bottom: 50px solid darkblue;
+}
+
+.middleBg {
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    background-color: darkblue;
+    opacity: .3;
+}
+
 
 /*.splash {
     margin-top: 0px;
@@ -159,11 +176,13 @@ textarea {
 }
 
 .scheduleButton {
+    position: relative;
     z-index: 0;
     height: 50px;
 }
 
 .quoteButton {
+    position: absolute;
     z-index: 0;
     height: 50px;
 }
@@ -193,71 +212,29 @@ textarea {
     max-height: 500px;
 }
 
-.col-md-3 {
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .blurbWrapper {
-    padding-top: 20px;
+    margin-top: 0px;
     position: relative;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    z-index: 0;
-    border-radius: 0px;
-    height: 375px;
-    margin: 0px;
-    margin-left: 0px;
 }
 
 
-.blurbBg {
-    position: absolute;
-    width: 95%;
-    height: 95%;
-    background-color: blue;
-    opacity: .3;
-    border-radius: 5px;
-    z-index: -1;
-    border-bottom: 5px solid yellow;
+
+.blurb1 {
+    height: 300px;
+    width: 250px;
 }
 
-.blurbBg2 {
-    position: absolute;
-    width: 95%;
-    height: 95%;
-    background-color: blue;
-    border-radius: 5px;
-    opacity: .3;
-    z-index: -1;
-    border-bottom: 5px solid yellow;
+.blurb2 {
+    height: 300px;
+    width: 250px;
 }
 
-.blurbBg3 {
-    position: absolute;
-    width: 95%;
-    height: 95%;
-    background-color: blue;
-    opacity: .3;
-    border-radius: 5px;
-    z-index: -1;
-    border-bottom: 5px solid yellow;
-}
-
-.blurbTitle {
-    position: relative;
-    z-index: 20;
-    display: flex;
-    justify-content: center;
-}
-
-.blurbText {
-    z-index: 20;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+.blurb3 {
+    height: 300px;
+    width: 250px;
 }
 
 .readMoreServicesButton {
@@ -271,12 +248,46 @@ textarea {
     justify-content: center;
 }
 
+
 .separator {
-    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.separatorBg {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: darkblue;
+    opacity: .3;
 }
 
 .separator2 {
-    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#commercial {
+    margin-top: 0px;
+}
+
+#separator {
+}
+
+#separator2 {
 }
 
 .testisText h5 {
@@ -307,6 +318,17 @@ main {
 
 .request {
     margin-top: 100px;
+}
+
+.teamPageHead {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.vaupelMover {
+    display: flex;
+    justify-content: center;
 }
 
 .teamHead {
@@ -362,37 +384,34 @@ main {
     margin-top: 25px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
+
+.servicesHeaders {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesHeader {
+
+}
+
 
 
 .servicesButtons1 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .servicesButtons2 {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.servicesScheduleButton {
-    display: flex;
-    justify-content: center;
 }
 
 .homeServiceContainer {
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -400,38 +419,64 @@ main {
 
 
 .serviceImage {
-    position: relative;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
+    padding: 15px;
+    padding-top: 50px;
 }
 
 .serviceText {
-    position: absolute;
+    position: relative;
+    margin-top: -100px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    border-radius: 10px;
     background-color: darkblue;
+    border-radius: 10px;
 }
 
 .serviceTitle {
     color: yellow;
-    padding: 5px;
+    margin-top: 10px;
+}
+
+#commercial {
+    text-align: center;
 }
 
 .commercialServiceContainer {
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
     .commercialServiceContainer .serviceImage {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
     }
+
+.contactHead {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricesHead {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pricesButtons {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: none;
+    }
+}
 
 @media (max-width: 1024px) {
     .testis {
@@ -520,7 +565,7 @@ main {
     }
 
     .teamPageHead {
-        margin-top: 125px;
+
     }
 
     footer {
@@ -529,10 +574,14 @@ main {
 }
 
 @media (max-width: 414px) {
+
+    .middle {
+        height: 1000px !important;
+    }
+
     footer {
         margin-top: 100px;
     }
-
 
     .scheduleButtonL {
         margin-top: 10px;
@@ -577,19 +626,19 @@ main {
     }
 
     .contactHead {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .pricesHead {
-        margin-top: 50px;
+        margin-top: 100px !important;
     }
 
     .testisHead {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .servicesHeader {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .serviceTitle {
@@ -597,7 +646,7 @@ main {
     }
 
     .teamPageHead {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     .teamHead {
@@ -609,4 +658,3 @@ main {
         justify-content: center;
     }
 }
-
