@@ -63,7 +63,9 @@ textarea {
             color: white;
         }
 
-.testis {
+.testisButtons {
+    display: flex;
+    justify-content: space-around;
 }
 
 .scheduleButtonL {
@@ -470,6 +472,13 @@ main {
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
+}
+
+.testimonialsText {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 
