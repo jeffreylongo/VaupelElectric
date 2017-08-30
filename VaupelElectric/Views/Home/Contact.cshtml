@@ -3,6 +3,10 @@
     ViewBag.Title = "Contact";
 }
 
+<head>
+    <title>Contact</title>
+</head>
+
 @*<div class="splash">
         <div class="logoContainer">
             <img class="img-responsive" id="logoSplash" src="/Images/VE.gif" alt="Vaupel Electric" />
@@ -17,43 +21,46 @@
 
 <h2 class="contactHead">Contact Vaupel Electric!</h2>
 
+<div class="centerThis"></div>
+
 <address>
-    <strong>Phone:</strong>
-    (941)284-7120
-    <p></p>
-    <strong>Email:</strong>   <a href="mailto:VaupelElectric@gmail.com"> Email@VaupelElectric</a><br />
+    <div class="centerThis">
+        <strong>Phone:</strong>
+        (941)284-7120
+        <p></p>
+        <strong>Email:</strong>   <a href="mailto:VaupelElectric@gmail.com"> Email@VaupelElectric</a><br />
+    </div>
 </address>
 
-<head>
-    <title>Contact</title>
-</head>
 <body>
-    <h2>Email Us Now!</h2>
-    <form method="post" action="ProcessRequest">
-        <div>
-            Your name:
-            <input type="text" name="customerName" />
-        </div>
+    <div class="centerThis">
+        <h2>Email Us Now!</h2>
+        <form method="post" action="ProcessRequest">
+            <div>
+                Your name :
+                <input type="text" name="customerName" />
+            </div>
 
-        <div>
-            Your email:
-            <input type="text" name="customerEmail" />
-        </div>
+            <div>
+                Your email   :
+                <input type="text" name="customerEmail" />
+            </div>
 
-        <div>
-            Your phone:
-            <input type="text" name="customerPhone" />
-        </div>
+            <div>
+                Your phone:
+                <input type="text" name="customerPhone" />
+            </div>
 
-        <div>
-            Details about your inquiry: <br />
-            <textarea name="customerRequest" cols="45" rows="4"></textarea>
-        </div>
+            <div>
+                Details about your inquiry: <br />
+                <textarea name="customerRequest" cols="45" rows="4"></textarea>
+            </div>
 
-        <div>
-            <input type="submit" value="Submit" />
-        </div>
-    </form>
+            <div>
+                <input type="submit" value="Submit" />
+            </div>
+        </form>
+    </div>
 
     @*TODO: Finish making this form look better. And also work.*@ 
     @*<div class="wrapper">

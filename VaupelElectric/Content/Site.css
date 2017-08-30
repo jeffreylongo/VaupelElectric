@@ -79,6 +79,15 @@ textarea {
     margin-top: 51px;
 }
 
+.centerThis {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
 
 .bigNumber {
     color: yellow;
