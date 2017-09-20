@@ -23,6 +23,7 @@
     var customerPhone = Request["customerPhone"];
     var customerRequest = Request["customerRequest"];
     var errorMessage = "";
+    var toMail = "VaupelElectric@gmail.com";
     var debuggingFlag = false;
     try
     {
@@ -35,7 +36,7 @@
         WebMail.EnableSsl = true;
 
         // Send email
-        WebMail.Send(to: customerEmail,
+        WebMail.Send(to: toMail,
             subject: "Quote/Info request from - " + customerName,
             body: customerPhone + customerRequest
         );
